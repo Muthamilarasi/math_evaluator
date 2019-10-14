@@ -1,0 +1,22 @@
+{
+  "name": "math_evaluator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Muthamilarasi/math_evaluator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Muthamilarasi/math_evaluator/issues"
+  },
+  "homepage": "https://github.com/Muthamilarasi/math_evaluator#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}

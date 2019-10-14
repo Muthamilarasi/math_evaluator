@@ -20,12 +20,12 @@ const execute = data => {
   } else if (data.operator == "/") {
     return data.operand
       .map(e => parseInt(e))
-      .reduce((accumulator, value) => accumulator - value);
+      .reduce((accumulator, value) => accumulator / value);
   }
   return data;
 };
 
-//console.log(execute({ operator: "+", operand: [3, 4, 5, 6, 7, 4] }));
+console.log(execute({ operator: "-", operand: ["5"] }));
 
 module.exports = {
   execute

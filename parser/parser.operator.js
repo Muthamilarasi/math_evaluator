@@ -1,40 +1,36 @@
 const operator = value => {
-  try {
-    if (value[0] == "+") {
-      return {
-        result: {
-          type: "OPERAND",
-          value: value[0]
-        },
-        remainder: value.slice(1)
-      };
-    } else if (value[0] == "-") {
-      return {
-        result: {
-          type: "OPERAND",
-          value: value[0]
-        },
-        remainder: value.slice(1)
-      };
-    } else if (value[0] == "*") {
-      return {
-        result: {
-          type: "OPERAND",
-          value: value[0]
-        },
-        remainder: value.slice(1)
-      };
-    } else if (value[0] == "/") {
-      return {
-        result: {
-          type: "OPERAND",
-          value: value[0]
-        },
-        remainder: value.slice(1)
-      };
-    }
-  } catch (err) {
-    console.log("fdg", err);
+  if (value[0] == "+") {
+    return {
+      result: {
+        type: "OPERAND",
+        value: value[0]
+      },
+      remainder: value.slice(1)
+    };
+  } else if (value[0] == "-") {
+    return {
+      result: {
+        type: "OPERAND",
+        value: value[0]
+      },
+      remainder: value.slice(1)
+    };
+  } else if (value[0] == "*") {
+    return {
+      result: {
+        type: "OPERAND",
+        value: value[0]
+      },
+      remainder: value.slice(1)
+    };
+  } else if (value[0] == "/") {
+    return {
+      result: {
+        type: "OPERAND",
+        value: value[0]
+      },
+      remainder: value.slice(1)
+    };
   }
 };
 

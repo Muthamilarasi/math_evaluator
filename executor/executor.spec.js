@@ -14,6 +14,6 @@ describe("executor", () => {
     // Act
     const result = executor.execute(expression);
     // Assert
-    expect(result).toBe(3);
+    expect(result).toBe(-3);
   });
 });
